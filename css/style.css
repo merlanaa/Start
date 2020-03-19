@@ -4,7 +4,7 @@
 body.yellow{
 	background-color: yellow;
 }
-.wrapper{
+.wrapper, .container{
 	margin: 30px auto auto 30px;
 }
 .title{
@@ -20,12 +20,12 @@ body.yellow{
 	margin-top: 30px;
 }
 .logo{
-	width: 780px;
+	width: 200px;
     height: 200px;
     
 }
 .navigation{
-	margin-left: 30px;
+	/*margin-left: 30px;*/
 	margin-top: 22.5px;
 }
 .navigation-a{
@@ -34,17 +34,25 @@ body.yellow{
 	display: inline-block;
 	text-decoration: none;
 	font-family: 'ninoBold';
-
+	color: #3D58A6;
+	font-size: 22px;
+}
+.navigation-a.active{
+	/*color: #EE4036;*/
+	color: rgb(238,64,54);
 }
 .banner-section{
 	margin-top: 22.5px;
-	margin-left: 30px;
+	/*margin-left: 30px;*/
 }
 .banner-img{
 	width: 400px;
 }
 .test{
-	font-family: 'ingiroarial';
+	/*font-family: 'ingiroarial';*/
+}
+.footer{
+	margin-top: 30px;
 }
 .divider{
 	height: 30px;
