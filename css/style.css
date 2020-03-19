@@ -1,4 +1,7 @@
-body{
+.display-inline-block{
+	display: inline-block
+}
+body.yellow{
 	background-color: yellow;
 }
 .wrapper{
@@ -15,4 +18,44 @@ body{
 }
 .image{
 	margin-top: 30px;
+}
+.logo{
+	width: 780px;
+    height: 200px;
+    
+}
+.navigation{
+	margin-left: 30px;
+	margin-top: 22.5px;
+}
+.navigation-a{
+	margin-top: 7.5px;
+	margin-bottom: 7.5px;
+	display: inline-block;
+	text-decoration: none;
+	font-family: 'ninoBold';
+
+}
+.banner-section{
+	margin-top: 22.5px;
+	margin-left: 30px;
+}
+.banner-img{
+	width: 400px;
+}
+.test{
+	font-family: 'ingiroarial';
+}
+.divider{
+	height: 30px;
+	width: 3px;
+	background-color: #3D58A6;
+	margin: auto 30px;
+	/*display: inline-block;*/
+}
+.social-li{
+	/*display: inline-block;*/
+}
+.social-img{
+	height: 30px;
 }
